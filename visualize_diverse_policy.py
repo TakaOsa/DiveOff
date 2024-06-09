@@ -109,7 +109,7 @@ if __name__ == "__main__":
     parser.add_argument("--weighted_q", default=True)
     parser.add_argument("--v_scale", default=1.0, type=float)
     parser.add_argument("--vae_steps", default=1e5, type=int)
-    parser.add_argument("--info_lr_rate", default=0.3, type=int)
+    parser.add_argument("--info_lr_rate", default=0.3, type=float)
     parser.add_argument("--z_width", default=2.0, type=float)
     parser.add_argument("--info_alpha", default=2.0, type=float)
 
